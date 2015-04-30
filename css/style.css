@@ -1,0 +1,134 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP     (Shim any browser-specific fixes here.)
+/*******************************************/
+
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+  margin: 10px;
+  padding: 10;
+  background: #ffffff;
+}
+ 
+.nav ul {
+  list-style: none;
+  background-color: #006489;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #000000;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+ 
+  /* Options 2 - Float
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #444;
+  }
+  */
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/* Center the container */
+#container {
+	width: 1024px;
+	margin: auto;
+}
+#main {
+	float: left;
+	width: 100%;
+}
+
+
+}
+section {
+	border-bottom: 1px solid #000000;
+	margin: 3em 0;
+	padding-bottom: 1.5em;
+}
+h1,h2,h3,h4{
+  color: #000000;
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+ a {
+	color: #D00;
+	text-decoration: none;
+	-webkit-transition: all 300ms;
+}
+
+#multi {
+  position:absolute;
+  top: 130px;
+  right:900px;
+  width: 200px;
+
+}
+
